@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+.container {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navber Section */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-size: .9rem;
+    background-color: #FCAF02;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+}
+
+.left {
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right span {
+    padding: 5px 25px;
+}
+
+.right a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Section 1 */
+
+main {
+    width: 100%;
+    padding: 80px 45px 0 45px;
+}
+
+.sec1 {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-area {
+    width: 70%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    font-size: 1.1rem;
+}
+
+.text-area h1 {
+    font-size: 2rem;
+}
+
+.text-area p {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.text-area button{
+    background-color: #FCAF02;
+    padding: 15px 70px;
+    color: #000000;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 12px 0 0 5px;
+    border: none;
+}
+
+img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Section 2 */
+
+.sec2 {
+    width: 100%;
+    padding: 55px 15px 55px 0;
+}
+
+.sec2 h2 {
+    color: #FCAF02;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: #FCAF02;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.sec2 input {
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 30px;
+    background-color: #000000;
+    border: 1px solid #FCAF02;
+    outline: none;
+}
+
+.mob-city {
+    display: flex;
+    gap: 40px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn .submit {
+    background-color: #FCAF02;
+    padding: 15px 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    border: none;
+}
+
+/* section 3 */
+
+.sec3 {
+    margin: 0 0 60px 0;
+}
+
+table {
+    width: 100%;
+    color: #FCAF02;
+    border: 1px solid #FCAF02;
+    border-collapse: collapse;
+}
+
+thead tr th{
+    text-align: start;
+    font-weight: 400;
+    padding: 15px 0 15px 25px;
+    border: 1px solid #FCAF02;
+}
+
+tbody tr td {
+    border-right: 1px solid #FCAF02;
+    text-align: start;
+    padding: 15px 0 15px 35px;
+}
+
+tbody tr td:first-child {
+    padding-left: 40px;
+}
+
+tfoot tr td {
+    text-align: start;
+    border: 1px solid #FCAF02;
+    background-color: #FCAF02;
+    padding: 15px 0 15px 35px;
+    color: #000000;
+    border-right: 1px solid #000000;
+}
+
+tfoot tr td:last-child {
+    border-right: 1px solid #FCAF02;
+}
+
